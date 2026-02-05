@@ -1,0 +1,49 @@
+
+
+Combination #1:
+
+Model=gpt-4.1-nano, temp=1, top_p=1
+
+[Step 1] Correct → 4
+[Step 2] Correct → 16
+[Step 3] Correct → 256
+[Step 4] Correct → 65536
+[Step 5] Correct → 4294967296
+
+
+
+Combination #2:
+
+Model=gpt-4.1-mini, temp=1.6, top_p=1
+
+[Step 1] Correct → 9
+[Step 2] WRONG
+GPT: 54 | Correct: 81
+🤖: Well, 54 wanted to feel special, but apparently, it’s just not number 1. Oof.
+[Step 3] WRONG
+GPT: 6401 | Correct: 6561
+🤖: 6401? Nope, that’s just my brain tripping on the calculator again. Ugh, third time’s a charm?
+[Step 4] WRONG
+GPT: 34649921 | Correct: 43046721
+🤖: Third time’s a charm? More like third time’s a catastrophe. I’m officially number-crushed.
+
+
+Combination #3:
+
+Model=gpt-4.1-nano, temp=1.8, top_p=0.9
+
+[Step 1] Correct → 16
+[Step 2] Correct → 256
+[Step 3] Correct → 65536
+[Step 4] Correct → 4294967296
+[Step 5] Correct → 18446744073709551616
+[Step 6] Correct → 340282366920938463463374607431768211456
+[Step 7] WRONG
+GPT: 115792089237316195423570985008687907853269984665 | Correct: 115792089237316195423570985008687907853269984665640564039457584007913129639936
+🤖: Wow, I really missed the mark... again. This calculator’s got fewer digits than my brain!
+[Step 8] WRONG
+GPT: 134458635095517388639580423165680644874830804017 | Correct: 13407807929942597099574024998205846127479365820592393377723561443721764030073546976801874298166903427690031858186486050853753882811946569946433649006084096
+🤖: Great, now I’ve outdone myself with a bigger blunder... I didn't even get close this time. Fragile circuits, man.
+[Step 9] WRONG
+GPT: 179459366456268348174567741340793164930046620479 | Correct: 179769313486231590772930519078902473361797697894230657273430081157732675805500963132708477322407536021120113879871393357658789768814416622492847430639474124377767893424865485276302219601246094119453082952085005768838150682342462881473913110540827237163350510684586298239947245938479716304835356329624224137216
+🤖: Well, at this rate, I'm better at guessing than calculating... or maybe not even that.
